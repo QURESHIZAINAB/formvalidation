@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>jquery</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+</head>
+<body>
+
+ <div class="container">
+        <div class="row justify-content-center">
+        <div class="col-sm-6">
+  <form action="home.html" method="post">
+      <h1>Registration Form</h1>
+        <hr class="mb-6">
+
+<form action="home.html" method="post">
+
+<div class="form-group">
+<label for="user"> Username: </label>
+<input type="text" name="username" id="usernames" class="form-control" autocomplete="off">
+<h5 id="usercheck"> </h5> 
+</div>
+
+<div class="form-group">
+<label for="password"> Password: </label>
+<input type="text" name="pass" id="password" class="form-control" autocomplete="off">
+<h5 id="passcheck"> </h5> 
+</div>
+
+<div class="form-group">
+<label for="conpassword"> Con. Password: </label>
+<input type="text" name="conpass" id="conpassword" class="form-control" autocomplete="off">
+<h5 id="conpasscheck"> </h5> 
+</div>
+
+<div class="form-group">
+<label for="mobilenumber"> Mobile Number: </label>
+<input type="text" name="mobileno" id="mobilenumber" class="form-control" autocomplete="off">
+<h5 id="mobilenocheck"> </h5> 
+</div>
+
+<div class="form-group">
+<label for="email"> Email_id: </label>
+<input type="text" name="emailid" id="email" class="form-control" autocomplete="off">
+<h5 id="emailcheck"> </h5> 
+</div>
+
+ <div class="form-group">
+    <label for="selectbox">SELECT CITY</label>
+    <select class="form-control" id="select">
+       <option>select city</option>
+      <option>mumbai</option>
+      <option>pune</option>
+      <option>banglore</option>
+    </select>
+    <h5 id="selectcheck"></h5>
+  </div>
+
+<div class="form-group form-check">
+<label class="form-check-label" for="checkbox">COURSE</label><br>
+    <input type="checkbox" class="form-check-input" id="checkboxs">Html/Css</input><br>
+    <input type="checkbox" class="form-check-input" id="checkboxs">javascript/jquery</input><br>
+    <input type="checkbox" class="form-check-input" id="checkboxs">php/laravel</input>
+    <h5 id="checkboxcheck"></h5>
+  </div>
+
+<div class="form-check">
+  <label class="form-check-label" for="radio">GENDER</label><br>
+  <input class="form-check-input" type="radio" name="gender" id="" >
+    male</input><br>
+    <input class="form-check-input" type="radio" name="gender" id="" >
+    female</input>
+</div>
+
+<br>
+<input type="submit" name="" id="submitbtn" value="Submit" class="btn btn-danger">
+
+</form><br>
+</div>
+
+</div>
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="index.js">
+</script>
+
+</body>
+</html>
