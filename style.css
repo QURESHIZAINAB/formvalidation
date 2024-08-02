@@ -1,0 +1,75 @@
+/* styles.css */
+
+/* Basic styling for the form */
+body {
+    background-image: url(assest/back.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+    }
+   { font-family :Arial, sans-serif ;
+    padding: 20px;
+} 
+
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+/* Styling for error messages */
+.error-message {
+    display: none;
+    color: red;
+    font-size: 0.875em;
+    margin-top: 20px;
+}
+
+/* Show error message when input is invalid */
+input:invalid {
+    border-color: red;
+}
+
+input:invalid + .error-message {
+    display: block;
+}
+
+/* Show success styling when input is valid */
+input:valid {
+    border-color: green;
+}
+
+input:valid + .error-message {
+    display: none;
+}
+
+/* Styling for the submit button */
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
